@@ -1,0 +1,74 @@
+.cart {
+    padding: 100px;
+    background-color: #f4f4f4;
+}
+
+.cart-title {
+    padding: 50px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tr {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.img-pet {
+    margin-left: 30px;
+    max-width: 70px;
+    max-height: 70px;
+    display: inline-block;
+}
+
+.name-pet {
+    text-align: left;
+}
+
+.name-pet h5 {
+    font-size: 22px;
+    font-family: "Baloo";
+    letter-spacing: 0.8px;
+    margin-left: -150px;
+
+}
+
+.btn-pet {
+    text-align: right;
+}
+
+.btn-pet button {
+    margin-right: 30px;
+}
+
+.btn-blue:hover {
+    background-color: #2980b9;
+}
+
+.card {
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-remove-all td {
+    text-align: right;
+}
+
+tr .btn-remove-all {
+    border: none;
+}
+
+.btn-remove{
+    padding: 7px 15px;
+}

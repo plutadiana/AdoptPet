@@ -1,0 +1,49 @@
+.banner  {
+    background-position:top center;
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 90px 0;
+
+}
+
+.banner-content {
+    padding: 60px 0;
+    margin:auto;
+    width: 1170px;
+}
+
+.banner-title {
+    font-family: "Baloo";
+    font-size: 75px;
+    color: white;
+    margin: 0;
+}
+.banner-subtitle {
+    width: 30%;
+    font-size: 35px;
+    color: white;
+    padding: 0;
+}
+
+.btn-blue {
+    font-family: "Baloo";
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 50px;
+    background-color: #018AE0;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+.btn-blue:hover {
+    background-color:#D61C62;
+}

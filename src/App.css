@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Baloo";
+  src: local("Baloo"), url("./fonts/Baloo-Regular.ttf"), format("truetype");
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}

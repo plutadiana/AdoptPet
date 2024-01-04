@@ -1,0 +1,67 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;    
+}
+
+.navbar-section {
+    display: flex;
+}
+
+.stuck {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.container {
+    align-items: center;
+    width: 1170px;
+    margin: auto;
+}
+
+.nav-logo img {
+    max-height: 50px;
+    margin-top: 3px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: "Baloo";
+    color: #111111;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background:  #D61C62; /*#018AE0;  #1446A0;*/
+}
+
+.centred-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}

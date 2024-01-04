@@ -1,0 +1,93 @@
+.contact-section {
+    padding: 100px;
+}
+
+.contact {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.contact-box {
+    width: 40%;
+}
+
+.box-img {
+    width: 60%;
+}
+
+.box-img img {
+    width: 120%;
+    height: auto;
+}
+
+.forum-group label {
+    font-weight: 400;
+    padding-left: 7px;
+    line-height: 1.6;
+    color: #313131;
+    font-size: 16px;
+    display: block;
+    max-width: 100%;
+    margin-top: 12px;
+}
+
+.forum-contact {
+    padding: 7px;
+    line-height: 1.8;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #D61C62;
+}
+
+.forum-contact:placeholder-shown {
+    font-size: 14px;
+}
+
+.forum-group .btn-pink {
+    width: 100%;
+}
+
+.subtitle-contact {
+    font-family: "Baloo";
+    font-size: 30px;
+    color: #D61C62;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.contact-ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-li svg {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-li a {
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.information-box {
+    padding-bottom: 50px;
+}

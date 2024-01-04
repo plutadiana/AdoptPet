@@ -1,0 +1,32 @@
+.category-section {
+    background-color: #0566c0;
+    padding: 100px 0;
+    background-image: url(https://www.ingridkuhn.com/themes/unitedpets/css/../img/patterns/pattern1.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+
+.title-category {
+    color: white;
+    margin-bottom: 20px;     
+}
+
+.content-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.content-category img {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px 5px #00203d;
+    transition: transform .2s;
+}
+
+.content-category img:hover {
+    transform: scale(1.2);
+}
+
+
